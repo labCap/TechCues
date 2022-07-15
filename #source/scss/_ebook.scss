@@ -1,0 +1,46 @@
+.ebook {
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #111131;
+        border-radius: 8px;
+        color: #fff;
+        padding: 48px;
+    }
+
+    &__text-box {
+        width: 534px;
+    }
+
+    &__subtitle {
+        font-weight: 700;
+        margin-bottom: 27px;
+    }
+
+    &__title {
+        font-size: 31px;
+        line-height: 50px;
+        letter-spacing: 1px;
+    }
+
+    &__btn-box {
+        width: 534px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__btn {
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 16px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

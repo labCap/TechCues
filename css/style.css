@@ -185,6 +185,26 @@ a {
   background: #1B1B4D;
 }
 
+.btn1 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #5C5CFF;
+  background: #1B1B4D;
+  border: 1px solid #8989F8;
+  border-radius: 8px;
+  padding: 8px 16px;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.btn1:hover {
+  background: #5C5CFF;
+  color: #fff;
+}
+.btn1:active {
+  background: #1B1B4D;
+  color: #fff;
+}
+
 .btn-link {
   font-size: 14px;
   line-height: 29px;
@@ -355,6 +375,9 @@ a {
           flex: 1 1 0;
 }
 
+.posts {
+  margin-top: 56px;
+}
 .posts__top {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -438,4 +461,55 @@ a {
   font-size: 19px;
   line-height: 30px;
   color: #413E52;
+}
+
+.ebook__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #111131;
+  border-radius: 8px;
+  color: #fff;
+  padding: 48px;
+}
+.ebook__text-box {
+  width: 534px;
+}
+.ebook__subtitle {
+  font-weight: 700;
+  margin-bottom: 27px;
+}
+.ebook__title {
+  font-size: 31px;
+  line-height: 50px;
+  letter-spacing: 1px;
+}
+.ebook__btn-box {
+  width: 534px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.ebook__btn {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 16px;
+}
+.ebook__btn:last-child {
+  margin-bottom: 0;
 }

@@ -113,6 +113,27 @@ a {
     }
 }
 
+.btn1 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #5C5CFF;
+    background: #1B1B4D;
+    border: 1px solid #8989F8;
+    border-radius: 8px;
+    padding: 8px 16px;
+    transition: $transition;
+
+    &:hover {
+        background: $purple;
+        color: #fff;
+    }
+
+    &:active {
+        background: $purple-2;
+        color: #fff;
+    }
+}
+
 .btn-link {
     font-size: 14px;
     line-height: 29px;
@@ -140,3 +161,4 @@ a {
 @import 'header';
 @import 'intro';
 @import 'posts';
+@import 'ebook';
