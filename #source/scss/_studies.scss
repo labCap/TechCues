@@ -1,35 +1,13 @@
 .studies {
 
-    &__inner {}
+    // &__inner {}
 
     &__top {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        border-bottom: 1px solid #868297;
-        margin-bottom: 31px;
+        @include sectionTop
     }
 
     &__text {
-        font-size: 14px;
-        line-height: 18px;
-        letter-spacing: 1.4px;
-        text-transform: uppercase;
-        color: $black;
-        padding-bottom: 18px;
-        position: relative;
-        display: inline-block;
-
-        &::after {
-            content: '';
-            height: 4px;
-            width: 100%;
-            background: #413e52;
-            position: absolute;
-            bottom: 0;
-            left: 0;
-        }
-
+        @include sectionTextTop
     }
 
     // &__btn {}
@@ -61,9 +39,9 @@
         padding: 48px 24px;
     }
 
-    &__name {}
+    // &__name {}
 
-    &__title {}
+    // &__title {}
 
     &__box {
         flex: 0 1 465px;

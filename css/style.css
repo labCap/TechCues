@@ -435,6 +435,8 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -472,6 +474,7 @@ a {
 .posts__item-title:active {
   color: #1B1B4D;
 }
+
 .ebook__inner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -589,4 +592,81 @@ a {
 }
 .studies__item {
   margin-bottom: 32px;
+}
+
+.news__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.news__box-baner {
+  text-align: center;
+  padding: 48px;
+  background: #111131;
+  border-radius: 8px;
+  color: #fff;
+}
+.news__box {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 370px;
+          flex: 0 1 370px;
+}
+.news__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #868297;
+  margin-bottom: 31px;
+}
+.news__text {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #413E52;
+  padding-bottom: 18px;
+  position: relative;
+  display: inline-block;
+}
+.news__text::after {
+  content: "";
+  height: 4px;
+  width: 100%;
+  background: #413e52;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.news__item {
+  margin-bottom: 32px;
+}
+.news__img {
+  margin-bottom: 40px;
+}
+.news__subtitle {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.news__title-baner {
+  margin-bottom: 37px;
+  font-size: 23px;
+  line-height: 36px;
+}
+.news__btn-baner {
+  margin-bottom: 16px;
+  width: 100%;
+}
+.news__btn-baner:last-child {
+  margin-bottom: none;
 }

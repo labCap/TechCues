@@ -36,6 +36,7 @@
 
     &__bottom {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
     }
 
@@ -75,7 +76,7 @@
         }
     }
 
-    &__item-name {}
+    // &__item-name {}
 
-    &__item-text {}
+    // &__item-text {}
 }
