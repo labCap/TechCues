@@ -2,12 +2,17 @@
 
     &__inner {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
         background: #111131;
         border-radius: 8px;
         color: #fff;
         padding: 48px;
+
+        @media (max-width:768px) {
+            justify-content: center;
+        }
     }
 
     &__text-box {
@@ -23,6 +28,11 @@
         font-size: 31px;
         line-height: 50px;
         letter-spacing: 1px;
+
+        @media (max-width:425px) {
+            font-size: 23px;
+            line-height: 35px;
+        }
     }
 
     &__btn-box {

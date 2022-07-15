@@ -1,0 +1,110 @@
+.footer {
+    background: $purple-2;
+
+    // &__inner {}
+
+    &__top {
+        color: $purple-1;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 128px 0;
+
+        @media (max-width:768px) {
+            padding: 20px 0;
+        }
+    }
+
+
+    &__box {
+        margin: 30px 20px;
+    }
+
+    &__box:nth-child(4) {
+        width: 380px;
+    }
+
+    &__logo {
+        margin-bottom: 35px;
+    }
+
+    &__ico-list {
+        display: flex;
+    }
+
+    &__ico {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: $purple-1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 12px 0 0;
+        transition: $transition;
+
+        &:hover {
+            background: $purple;
+        }
+
+        &:active {
+            background: $purple-2;
+        }
+    }
+
+    &__title {
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+        color: $purple-1;
+        margin-bottom: 12px;
+    }
+
+    // &__list {}
+
+    &__link {
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 1.4px;
+        color: $purple-1;
+        margin-bottom: 12px;
+        transition: $transition;
+
+        &:hover {
+            color: $purple;
+        }
+
+        &:active {
+            color: $grey;
+        }
+    }
+
+    &__text {
+        font-size: 29px;
+        line-height: 42px;
+        color: #fff;
+        margin-bottom: 32px;
+    }
+
+    // &__btn-box {}
+
+    &__btn {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+
+    &__bottom {
+        background: $purple-1;
+        padding: 8px 0;
+        font-size: 14px;
+        line-height: 29px;
+        color: $purple-2;
+        font-weight: 700;
+
+        span {
+            margin: 0 16px 0 0;
+        }
+    }
+}

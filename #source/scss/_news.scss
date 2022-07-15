@@ -3,7 +3,14 @@
     &__inner {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: center;
+        margin: 0 -28px;
+    }
+
+
+    &__box {
+        flex: 0 1 370px;
+        margin: 20px 28px;
     }
 
     &__box-baner {
@@ -12,10 +19,6 @@
         background: #111131;
         border-radius: 8px;
         color: #fff;
-    }
-
-    &__box {
-        flex: 0 1 370px;
     }
 
     &__top {
