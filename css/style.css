@@ -165,6 +165,27 @@ a {
   color: #413E52;
 }
 
+.name {
+  margin-bottom: 7px;
+  font-size: 13px;
+  line-height: 20px;
+  color: #868297;
+}
+
+.text {
+  font-size: 19px;
+  line-height: 30px;
+  color: #413E52;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.text:hover {
+  color: #5C5CFF;
+}
+.text:active {
+  color: #1B1B4D;
+}
+
 .btn {
   font-size: 15px;
   line-height: 29px;
@@ -451,18 +472,6 @@ a {
 .posts__item-title:active {
   color: #1B1B4D;
 }
-.posts__item-name {
-  margin-bottom: 7px;
-  font-size: 13px;
-  line-height: 20px;
-  color: #868297;
-}
-.posts__item-text {
-  font-size: 19px;
-  line-height: 30px;
-  color: #413E52;
-}
-
 .ebook__inner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -512,4 +521,72 @@ a {
 }
 .ebook__btn:last-child {
   margin-bottom: 0;
+}
+
+.studies__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #868297;
+  margin-bottom: 31px;
+}
+.studies__text {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #413E52;
+  padding-bottom: 18px;
+  position: relative;
+  display: inline-block;
+}
+.studies__text::after {
+  content: "";
+  height: 4px;
+  width: 100%;
+  background: #413e52;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.studies__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.studies__box-big {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 696px;
+          flex: 0 1 696px;
+  overflow: hidden;
+  background: #FFFFFF;
+  border: 1px solid #EBEAF2;
+  border-radius: 8px;
+}
+.studies__img {
+  max-width: 696px;
+  height: auto;
+}
+.studies__img img {
+  width: 100%;
+}
+.studies__text-box {
+  padding: 48px 24px;
+}
+.studies__box {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 465px;
+          flex: 0 1 465px;
+}
+.studies__item {
+  margin-bottom: 32px;
 }

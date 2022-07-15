@@ -91,6 +91,27 @@ a {
     color: $black
 }
 
+.name {
+    margin-bottom: 7px;
+    font-size: 13px;
+    line-height: 20px;
+    color: $grey;
+}
+
+.text {
+    font-size: 19px;
+    line-height: 30px;
+    color: $black;
+    transition: $transition;
+
+    &:hover {
+        color: $purple;
+    }
+
+    &:active {
+        color: $purple-2;
+    }
+}
 
 .btn {
     font-size: 15px;
@@ -162,3 +183,4 @@ a {
 @import 'intro';
 @import 'posts';
 @import 'ebook';
+@import 'studies';

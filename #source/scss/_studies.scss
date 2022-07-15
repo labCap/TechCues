@@ -1,6 +1,6 @@
-.posts {
-    margin-top: 56px;
-    // &__inner {}
+.studies {
+
+    &__inner {}
 
     &__top {
         display: flex;
@@ -39,19 +39,18 @@
         justify-content: space-between;
     }
 
-    &__item {
-        flex: 0 1 360px;
+    &__box-big {
+        flex: 0 1 696px;
+        overflow: hidden;
         background: #FFFFFF;
         border: 1px solid #EBEAF2;
-        box-shadow: 0px 24px 24px rgba(52, 52, 147, 0.32);
+        // box-shadow: 0px 24px 24px rgba(52, 52, 147, 0.32);
         border-radius: 8px;
-        overflow: hidden;
     }
 
-    &__item-img {
-        max-width: 367px;
-        height: 200px;
-        overflow: hidden;
+    &__img {
+        max-width: 696px;
+        height: auto;
 
         img {
             width: 100%;
@@ -59,23 +58,18 @@
     }
 
     &__text-box {
-        padding: 34px 24px;
+        padding: 48px 24px;
     }
 
-    &__item-title {
-        margin-bottom: 31px;
-        transition: $transition;
+    &__name {}
 
-        &:hover {
-            color: $purple-1;
-        }
+    &__title {}
 
-        &:active {
-            color: $purple-2;
-        }
+    &__box {
+        flex: 0 1 465px;
     }
 
-    &__item-name {}
-
-    &__item-text {}
+    &__item {
+        margin-bottom: 32px;
+    }
 }
