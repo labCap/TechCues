@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #413E52;
+}
+
+a {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #413E52;
+  display: inline-block;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow: hidden;
+}
+
+.main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%;
+}
+
+.container {
+  max-width: 1250px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.banner {
+  background: #111;
+  padding: 5px 0;
+  text-align: center;
+  font-size: 13px;
+  line-height: 29px;
+  color: #ABABFA;
+}
+.banner a {
+  font-size: 13px;
+  line-height: 29px;
+  color: #ABABFA;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.banner a:hover {
+  color: #5C5CFF;
+}
+.banner a:active {
+  color: #1B1B4D;
+}
+
+.btn {
+  font-size: 15px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: #5C5CFF;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.btn:hover {
+  background: #ABABFA;
+}
+.btn:active {
+  background: #1B1B4D;
+}
+
+.header {
+  -webkit-box-shadow: 6px 6px 16px rgba(17, 17, 49, 0.12);
+          box-shadow: 6px 6px 16px rgba(17, 17, 49, 0.12);
+}
+.header.fix {
+  position: fixed;
+  z-index: 100000000000000000000;
+  width: 100%;
+  background: #fff;
+}
+.header__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 17px 0;
+}
+.header__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__logo {
+  max-width: 218px;
+}
+.header__logo img {
+  width: 100%;
+}
+.header__search {
+  margin: 0 20px 0 0;
+}
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 0 0 36px;
+}
+.nav__link {
+  font-size: 14px;
+  line-height: 29px;
+  color: #413E52;
+  margin: 0 24px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.nav__link:hover {
+  color: #5C5CFF;
+}
+.nav__link:active {
+  color: #1B1B4D;
+}
+.nav__link-drop-ico::after {
+  content: "";
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%) rotate(45deg);
+          transform: translateY(-50%) rotate(45deg);
+  width: 8px;
+  height: 8px;
+  margin: 6px 0 0 8px;
+  border-right: 1px solid #5C5CFF;
+  border-bottom: 1px solid #5C5CFF;
+  cursor: pointer;
+}
